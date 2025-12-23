@@ -1,0 +1,123 @@
+/* RESET */
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* CONTAINER */
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+/* BOX MODEL */
+.box-model{
+  width: 200px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 5px solid black;
+  background-color: lightblue;
+}
+
+/* FLEXBOX */
+.flexbox{
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.flexbox .item{
+  background: orange;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+/* GRID */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+.grid div{
+  background: lightgreen;
+  padding: 20px;
+}
+
+/* CARD */
+.card{
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+  margin: 20px 0;
+}
+.card button{
+  background: blue;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* DROPDOWN MENU */
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropbtn{
+  background: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background: #f1f1f1;
+  min-width: 120px;
+}
+.dropdown-content a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/* LIST */
+.css-list{
+  list-style: square;
+  margin: 20px 0;
+}
+
+/* LOADER */
+.loader{
+  width: 40px;
+  height: 40px;
+  border: 5px solid lightgray;
+  border-top: 5px solid blue;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin{
+  100%{ transform: rotate(360deg); }
+}
+
+/* PAGINATION */
+.pagination a{
+  padding: 8px 12px;
+  margin: 2px;
+  text-decoration: none;
+  border: 1px solid gray;
+}
+
+/* WEBSITE SKELETON (Example) */
+header, footer{
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
