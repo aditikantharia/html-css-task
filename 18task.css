@@ -1,0 +1,91 @@
+h1{
+    color: brown;
+    font-style: italic;
+    text-align: center;
+   
+}
+body{
+    background-color: rgba(226, 226, 226, 0.822);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    background-color: rgb(217, 229, 147);
+    padding: 20px;
+    margin: 20px 0;
+}
+.border-top{
+    border-top: 10px solid rgb(235, 127, 19);
+    background-color: crimson;
+}
+.border-bottom{
+    border-bottom: 10px solid rgb(235, 19, 19);
+}
+.border-right{
+    border-right: 10px solid rgb(177, 235, 19);
+     background-color: crimson;
+}
+.border-left{
+    border-left: 10px solid rgb(33, 19, 235);
+}
+.hover-box{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(16, 186, 238, 0.774);
+    box-decoration-break: clone;
+    line-height: 100px;
+    margin: auto;
+    transition: background-color 0.5s ease,
+    transform 0.4s ease,
+    width 0.4s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hover-box:hover{
+    background-color: #9de73cc9;     
+    transform: tarnslate(20px) scale(1,1); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    color: #e73cd9c9;
+    font-size: 2.5rem;
+    width: 400px;
+}
+.pseudo-link {
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Visited state */
+.pseudo-link:visited {
+    color: purple;
+    background-color: aqua;
+}
+
+/* Active state (when clicking) */
+.normal-link:active {
+    color: red;
+    font-size: 20px;
+    background-color: aqua;
+}
+.style-link:hover{
+    color: rgb(7, 247, 19);
+    text-decoration: dotted;
+}
+.prg::first-letter{
+    font-size: 30px;
+    color: red;
+}
+.prg::first-line{
+    color: blue;
+}
+.prg::selection {
+    background: rgb(72, 255, 0);
+    color: white;
+}
+.prg1::before {
+    content: "★ ";
+}
+
+.prg1::after {
+    content: " ★";
+}
