@@ -111,3 +111,42 @@ div, span {
   padding: 5px;
   border: 1px solid;
 }
+.section {
+  padding: 20px;
+}
+
+/* Relative */
+.relative {
+  position: relative;
+  border: 1px solid black;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+/* Absolute */
+.absolute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: lightblue;
+}
+
+/* Fixed */
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: orange;
+}
+
+/* Sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  background: lightgreen;
+}
+
+/* Extra space to scroll */
+.space {
+  height: 1000px;
+}

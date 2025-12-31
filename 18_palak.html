@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="18_palak.css">
+    <!-- 1️⃣ Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- 2️⃣ Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- 3️⃣ Font Awesome (ICON FONT, NOT SVG) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+                        <!-- 1 -->
+    <center><h1>css Border side example</h1></center>
+
+    <h3>Top border</h3>
+    <div class="box border-top">
+        this div has only top border
+    </div>
+
+    <h3>Bottam border</h3>
+    <div class="box border-bottom">
+        this div has only bottam border
+    </div>
+
+    <h3>Right border</h3>
+    <div class="box border-right">
+        this div has only Right border
+    </div>
+
+    <h3>Left border</h3>
+    <div class="box border-left">
+        this div has only left border
+    </div>
+                    <!-- 2 -->
+    <center><h1>Hover Effect Example</h1></center>
+    <div class="hover-box">
+        Hover me
+    </div>
+                    <!-- 3 -->
+    <center><h1>Anchor tag with pseudo-class</h1></center>
+    <h3>
+        <a href="https://www.google.com"> CLick me</a>
+    </h3>
+                    <!-- 4 -->
+    <section>
+
+        <h2 class="pseudo-heading">Pseudo Elements Example</h2>
+
+        <p class="pseudo">
+            This paragraph demonstrates CSS pseudo elements. 
+            The first letter is styled differently, the first line has a unique color, 
+            and when you select this text, the background turns red with white text.
+        </p>
+
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ul>
+    </section>
+                                <!-- 5 -->
+
+  <!-- BLOCK  --> 
+   <!-- by default block ma j display thay -->
+  <h1>Normal h1 (display: block)</h1>
+  <h1>Next h1 (new line)</h1>
+
+  <hr>
+
+  <!-- INLINE -->
+  <h1 class="inline">h1 inline</h1>
+  <h1 class="inline">h1 inline</h1>
+
+  <hr>
+
+  <!-- NONE -->
+  <p class="none">You cannot see me (display: none)</p>
+  <h3>Text after display:none</h3>
+
+  <hr>
+  <!-- INLINE-BLOCK -->
+  <div class="inline-block">Box 1</div>
+  <div class="inline-block">Box 2</div>
+  <div class="inline-block">Box 3</div>
+
+  <hr>
+
+  <!-- FLEX -->
+  <div class="flex-container">
+    <div>Flex 1</div>
+    <div>Flex 2</div>
+    <div>Flex 3</div>
+    <div>Flex 4</div>
+  </div>
+
+  <hr>
+
+  <!-- GRID -->
+  <div class="grid-container">
+    <div>Grid 1</div>
+    <div>Grid 2</div>
+    <div>Grid 3</div>
+    <div>Grid 4</div>
+    <div>Grid 4</div>
+  </div>
+                        <!-- 6 -->
+
+<section class="position-demo">
+
+  <h2>CSS Position Property Demo</h2>
+
+  <!-- RELATIVE -->
+  <div class="relative-box">
+    Relative
+    <div class="absolute-box">Absolute</div>
+  </div>
+
+  <!-- FIXED -->
+  <p class="fixed-text">Fixed Position (I stay while scrolling)</p>
+
+  <!-- STICKY -->
+  <p class="sticky-text">Sticky Position (Stick on top)</p>
+
+  <!-- CONTENT TO SCROLL -->
+  <div class="scroll-content">
+    <p>Scroll down to see fixed & sticky behavior</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+     <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    
+  </div>
+
+</section>
+<br>
+                        <!-- 7 -->
+
+<section class="overflow-demo">
+  <h2 class="image-list">Image Hover Zoom (Overflow Demo)</h2>
+<div class="all-images">
+  <div class="box1 visible">
+    <p>overflow: visible</p>
+    <img src="s2.jpg" alt="sample">
+  </div>
+
+  <div class="box1 hidden">
+    <p>overflow: hidden</p>
+    <img src="s2.jpg" alt="sample">
+  </div>
+
+  <div class="box1 auto">
+    <p>overflow: auto</p>
+    <img src="s2.jpg" alt="sample">
+  </div>
+  </div>
+</section>
+                    <!-- 8 -->
+    <h3>Unordered List (Square Bullets)</h3>
+    <ul class="square-list">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <h3>Ordered List (Roman Numbers)</h3>
+    <ol class="roman-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>List with Bullets Inside</h3>
+    <ul class="inside-list">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+
+    <h3>List with Image Bullets</h3>
+    <ul class="image-list">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <!-- 9 -->
+
+<div class="image-effect">
+     <h2 class="heading-image">CSS Visibility Property Demo</h2>
+      <p>Hover over an image to hide it</p>
+
+    <section class="image-section">
+        <img src="s2.jpg" alt="Image 1">
+        <img src="s2.jpg" alt="Image 2">
+        <img src="s2.jpg" alt="Image 3">
+    </section>
+</div>
+
+<!-- 10 -->
+<h2 class="cursor-demo">🖱️ CSS Cursor Types Demo</h2>
+<p>Hover over each box to see different cursor styles</p>
+
+<div class="cursor-section">
+    <div class="cursor-box pointer">Pointer</div>
+    <div class="cursor-box auto">Auto</div>
+    <div class="cursor-box move">Move</div>
+    <div class="cursor-box text">Text</div>
+    <div class="cursor-box wait">Wait</div>
+    <div class="cursor-box help">Help</div>
+    <div class="cursor-box not-allowed">Not Allowed</div>
+    <div class="cursor-box zoom-in">Zoom In</div>
+    <div class="cursor-box zoom-out">Zoom Out</div>
+    <div class="cursor-box all-scroll">All Scroll</div>
+    <div class="cursor-box e-resize">E-Resize</div>
+    <div class="cursor-box w-resize">W-Resize</div>
+</div>
+
+<!-- 11 -->
+ <div class="div-button">Click Me</div>
+
+<!-- 12 -->
+
+<h2 class="image-filter">🎨 CSS Image Filters Demo</h2>
+
+<div class="filter-container">
+
+    <div class="filter-box blur">
+        <p>Blur</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box brightness">
+        <p>Brightness</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box contrast">
+        <p>Contrast</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box grayscale">
+        <p>Grayscale</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box sepia">
+        <p>Sepia</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box hue">
+        <p>Hue Rotate</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box saturate">
+        <p>Saturate</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+    <div class="filter-box shadow">
+        <p>Drop Shadow</p>
+        <img src="s2.jpg" alt="image">
+    </div>
+
+</div>
+
+<!-- 13 -->
+<h2 class="color-syntax">🎨 CSS Color Syntax Examples</h2>
+
+<div class="color-container">
+    <div class="color-box hex">HEX<br>#ff5733</div>
+    <div class="color-box rgb">RGB<br>rgb(52, 152, 219)</div>
+    <div class="color-box rgba">RGBA<br>rgba(46, 204, 113, 0.7)</div>
+    <div class="color-box hsl">HSL<br>hsl(280, 60%, 50%)</div>
+    <div class="color-box hsla">HSLA<br>hsla(45, 90%, 50%, 0.8)</div>
+    <div class="color-box name">Color Name<br>royalblue</div>
+</div>
+
+<!-- 14 -->
+
+<h1 id="main-title">CSS Selectors Example</h1>
+
+<pre>This paragraph uses ELEMENT selector.</pre>
+
+<p class="highlight">This paragraph uses CLASS selector.</p>
+
+<h4>Group Selector Heading</h4>
+<h5>Group Selector Heading</h5>
+<h6>Group Selector Heading</h6>
+
+<!-- 15 -->
+ <h1 class="shadow">Text Shadow Example</h1>
+
+<div class="shadow-box">
+    Box Shadow Example
+</div>
+
+<!-- 16 -->
+
+<h2 class="gradient">CSS Gradient Examples</h2>
+
+<div class="gradient-box linear-gradient">
+    Linear Gradient
+</div>
+
+<div class="gradient-box radial-gradient">
+    Radial Gradient
+</div>
+
+<!-- 17 -->
+ <h1 class="plain-text">This is plain text (default style)</h1>
+
+<h1 class="big-text">This text has bigger font size</h1>
+
+<h1 class="font-family-text">Different font-family with font-size</h1>
+
+<h1 class="italic-text">This text uses font-style italic</h1>
+
+<h1 class="bold-text">This text uses font-weight bold</h1>
+
+<h1 class="variant-text">This text uses font-variant small-caps</h1>
+
+<!-- 18 -->
+<div class="custom-card">
+
+    <h2 class="mb-3">
+        <i class="fa-solid fa-laptop-code"></i>
+        Web Libraries Demo
+    </h2>
+
+    <p class="text-muted">
+        This text uses <b>Google Font (Poppins)</b>
+    </p>
+
+    <button class="btn btn-primary btn-lg mt-3">
+        <i class="fa-solid fa-thumbs-up"></i>
+        Bootstrap Button
+    </button>
+
+</div>
+</body>
+</html>
